@@ -17,7 +17,7 @@ jobs:
         - run: echo "A first hello"
         - run: sleep 25
 workflows:
-  version2:
+  version: 2
   one_and_two:
     jobs:
       - one
